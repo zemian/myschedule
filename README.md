@@ -6,7 +6,7 @@ For more information, see project home at http://code.google.com/p/myschedule
 
 This is a developer README file. For end user README file, see myschedule-package/README.md
 
-Author: Zemian Deng <saltnlight5@gmail.com>
+Author: Zemian Deng <zemiandeng@gmail.com>
 
 # Getting the source code
 
