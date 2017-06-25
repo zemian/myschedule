@@ -1,3 +1,7 @@
+# NOTE: 
+This readme file contains instructions using old `hg` repository. You need to replace the example commands with git instead after it's moved into GitHub.
+
+
 # Project
 
 The MySchedule is a Java based web application for managing Quartz Schedulers.
