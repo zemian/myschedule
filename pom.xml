@@ -16,9 +16,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<quartz.version>2.2.1</quartz.version>
-		<slf4j.version>1.7.5</slf4j.version>
-		<vaadin.version>7.0.1</vaadin.version>
+		<quartz.version>2.3.2</quartz.version>
+		<slf4j.version>1.7.30</slf4j.version>
 		<groovy.version>2.1.6</groovy.version>
 		<hamcrest.version>1.3</hamcrest.version>
 		<junit.version>4.11</junit.version>
@@ -37,8 +36,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -86,27 +85,6 @@
 			</dependency>
 
             <dependency>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-server</artifactId>
-                <version>${vaadin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-client-compiled</artifactId>
-                <version>${vaadin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-client</artifactId>
-                <version>${vaadin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.vaadin</groupId>
-                <artifactId>vaadin-themes</artifactId>
-                <version>${vaadin.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy</artifactId>
                 <version>${groovy.version}</version>
@@ -135,13 +113,6 @@
 
 		</dependencies>
 	</dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>vaadin-addons</id>
-            <url>http://maven.vaadin.com/vaadin-addons</url>
-        </repository>
-    </repositories>
 
 	<profiles>
 
@@ -209,9 +180,9 @@
 
 	<developers>
 		<developer>
-			<id>saltnlight5</id>
+			<id>zemian</id>
 			<name>Zemian Deng</name>
-			<email>saltnlight5@gmail.com</email>
+			<email>zemiandeng@gmail.com</email>
 			<roles>
 				<role>Project Owner and Primary Developer</role>
 			</roles>
@@ -224,17 +195,4 @@
 			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
 		</license>
 	</licenses>
-	<distributionManagement>
-		<repository>
-			<id>local-m2-repo</id>
-			<url>file:///${user.home}/.m2/repository</url>
-			<uniqueVersion>true</uniqueVersion>
-		</repository>
-	</distributionManagement>
-	<scm>
-		<connection>scm:hg:file:///${basedir}</connection>
-		<developerConnection>scm:hg:${basedir}</developerConnection>
-		<url>http://code.google.com/p/myschedule/source/browse</url>
-	  <tag>HEAD</tag>
-  </scm>
 </project>

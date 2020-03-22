@@ -13,7 +13,7 @@ Ensure you have Java8 and Maven3 installed, then run
 
 # Branches
 
-* default => The 4.x development branch (VueJS UI with Quartz 2.4)
+* default => The 4.x development branch (VueJS UI with Quartz 2.3)
 * myschedule-3.x => 3.x release series (Vaadin UI with Quartz 2.2).
 * myschedule-2.x => 2.x release series (JQuery UI with Quartz 2).
 * myschedule-1.x => 1.x release series (JQuery UI with Quartz 1).
