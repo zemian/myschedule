@@ -7,8 +7,9 @@ The [MySchedule](https://github.com/zemian/myschedule) is a Java based web appli
 
 Ensure you have Java8 and Maven3 installed, then run
 
-	mvn install
-	mvn tomcat7:run
+	mvn install -DskipTests
+	cd myschedule-web
+	mvn jetty:run
     #open http://localhost:8080/myschedule-web
 
 # Branches

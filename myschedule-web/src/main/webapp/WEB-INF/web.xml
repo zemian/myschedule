@@ -5,24 +5,6 @@
 		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		 version="2.5">
 	<display-name>MySchedule Quartz Manager</display-name>
-	<context-param>
-		<description>Vaadin production mode</description>
-		<param-name>productionMode</param-name>
-		<param-value>true</param-value>
-	</context-param>
-	<servlet>
-		<servlet-name>VaadinServlet</servlet-name>
-		<servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
-		<init-param>
-			<description>Vaadin UI main entry</description>
-			<param-name>UI</param-name>
-			<param-value>myschedule.web.ui.MyScheduleUi</param-value>
-		</init-param>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>VaadinServlet</servlet-name>
-		<url-pattern>/*</url-pattern>
-	</servlet-mapping>
 	<listener>
 		<listener-class>myschedule.web.MyScheduleContextListener</listener-class>
 	</listener>
