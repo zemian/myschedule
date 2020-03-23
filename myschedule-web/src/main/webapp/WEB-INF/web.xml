@@ -8,4 +8,12 @@
 	<listener>
 		<listener-class>myschedule.web.MyScheduleContextListener</listener-class>
 	</listener>
+	<servlet>
+		<servlet-name>QuartzRESTServlet</servlet-name>
+		<servlet-class>myschedule.web.QuartzRESTServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QuartzRESTServlet</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
 </web-app>
