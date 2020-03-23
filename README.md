@@ -1,7 +1,7 @@
 # Project
 
 The [MySchedule](https://github.com/zemian/myschedule) is a Java based web application for managing 
-(Quartz Schedulers)[https://github.com/quartz-scheduler/quartz/].
+[Quartz Schedulers](https://github.com/quartz-scheduler/quartz/).
 
 ## How to build this project (generate latest jar and war files etc)
 
